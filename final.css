@@ -1,0 +1,97 @@
+#resumo-carrinho, #formulario-pagamento {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+body{
+    background-color: #cf9182;
+}
+
+#resumo-carrinho ul, #resumo-itens {
+    list-style-type: none;
+    padding: 0;
+
+}
+
+#resumo-carrinho li {
+    padding: 5px 0;
+    
+}
+
+#formulario-pagamento form {
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+}
+
+#formulario-pagamento label {
+    margin-top: 10px;
+  
+}
+
+#formulario-pagamento input {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+#formulario-pagamento button {
+    margin-top: 20px;
+    padding: 10px;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;;
+}
+
+h1 {
+    font-family: Verdana, Tahoma, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+section {
+    background-color: #F2DEC4;
+}
+
+#final {
+    text-align: center;
+    text-decoration: underline;
+}
+
+header img.logo {
+    width: 70px; 
+    height: auto;
+    margin-right: 20px; 
+}
+header {
+    padding: 10px 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    align-items: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
