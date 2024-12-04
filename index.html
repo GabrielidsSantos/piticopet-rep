@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="indexs.css">
+<link rel="stylesheet" href="responsi.css">
+
+    <link rel="shortcut icon" href="fotos/piticopet.png" type="image/x-icon">
+    <title>Pitico Pet</title>
+  <!--Lizi Holanda Lins e Gabrieli dos Santos  -->  
+</head>
+<body>
+    <header>
+        <img src="fotos/piticopet.png" alt="Logo Pitico Pet" class="logo">
+        <h1>Pitico Shop Online</h1>
+        <button id="menu-toggle">☰</button>
+        <nav id="menu">
+        <nav>
+            <ul>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><button id="carrinho-btn">Ver Carrinho (0)</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="pesquisa">
+        <h2>Pesquise Produtos</h2>
+        <input
+            type="text"
+            id="pesquisa-input"
+            placeholder="Digite o nome do produto"
+            onkeyup="filtrarProdutos()"
+        />
+    </section>
+
+    <section id="produtos">
+        <h2>Nossos Produtos</h2>
+        <div class="produto">
+            <img src="fotos/racaopremium" alt="Ração">
+            <h3>Ração Premium</h3>
+            <p>R$ 99,90</p>
+            <button onclick="adicionarAoCarrinho('Ração Premium', 99.90)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img src="fotos/brinquedocachorro.jpg" alt="Brinquedo">
+            <h3>Brinquedo para Cachorro</h3>
+            <p>R$ 39,90</p>
+            <button onclick="adicionarAoCarrinho('Brinquedo para Cachorro', 39.90)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img src="fotos/colardecachorro.jpg" alt="Acessório">
+            <h3>Colar de Cachorro</h3>
+            <p>R$ 29,90</p>
+            <button onclick="adicionarAoCarrinho('Colar de Cachorro', 29.90)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img src="fotos/raçaogato.png" alt="Ração">
+            <h3>Ração de gato </h3>
+            <p>R$ 99,90</p>
+            <button onclick="adicionarAoCarrinho('Ração de gato', 99.90)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img src="fotos/arranhadordegato" alt="Brinquedo">
+            <h3>Arranhador para gato</h3>
+            <p>R$ 109,90</p>
+            <button onclick="adicionarAoCarrinho('Arrahador para gato', 109.90)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img src="fotos/colargato" alt="Acessório">
+            <h3>Colar para gato</h3>
+            <p>R$ 39,90</p>
+            <button onclick="adicionarAoCarrinho('Colar para gato', 39.90)">Adicionar ao Carrinho</button>
+        </div>
+    </section>
+
+    
+    <section id="contato">
+        <h2>Contato</h2>
+        <a href="mailto: liziholandaa@gmail.com" target="_blank">Email: piticopet@gmail.com</a>
+        <p>Telefone: (13) 99127-1271</p>
+    </section>
+
+   
+
+
+    <div id="carrinho-modal" class="modal">
+        <div class="modal-conteudo">
+            <span class="fechar" onclick="fecharModal()">&times;</span>
+            <h2>Carrinho de Compras</h2>
+            <ul id="carrinho-itens"></ul>
+            <p id="total">Total: R$ 0,00</p>
+            <a href="finalizar.html"><button id="finalizar-btn">Finalizar Compra</button></a>
+            
+            <button onclick="fecharModal()">Fechar</button>
+        </div>
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
