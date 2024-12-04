@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="final.css">
+    <link rel="shortcut icon" href="fotos/piticopet.png" type="image/x-icon">
+    <title>Finalizar Pagamento - Pitico Pet</title>
+</head>
+<body>
+    <header>
+        <img src="fotos/piticopet.png" alt="Logo Pitico Pet" class="logo">
+        <h1>Finalizar Pagamento</h1>
+    </header>
+
+    <section id="resumo-carrinho">
+        <h2>Resumo do Carrinho</h2>
+        <ul id="resumo-itens"></ul>
+        <p id="resumo-total">Total: R$ 0,00</p>
+    </section>
+
+    <section id="formulario-pagamento">
+        <h2>Informações de Pagamento</h2>
+        <form id="pagamento-form">
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="endereco">Endereço:</label>
+            <input type="text" id="endereco" name="endereco" required>
+
+            <label for="cartao">Número do Cartão:</label>
+            <input type="text" id="cartao" name="cartao" maxlength="16" required>
+
+            <label for="validade">Validade:</label>
+            <input type="month" id="validade" name="validade" required>
+
+            <label for="cvv">CVV:</label>
+            <input type="text" id="cvv" name="cvv" maxlength="3" required>
+
+            <button type="submit">Pagar</button>
+        </form>
+    </section>
+
+<h2 id="final"> ִֶָ𓂃 ࣪˖ ִֶָ་༘࿐ Obrigada por comprar e confiar no <strong>Pitico Shop! ִֶָ𓂃 ࣪˖ ִֶָ་༘࿐ </strong> </h2>
+<img src="fotos/piscadinha" alt="cachorrinho dando piscadinha" id="piscadinha">
+
+
+    <script src="final.js"></script>
+</body>
+</html>
