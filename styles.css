@@ -1,25 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Pacifico&display=swap');
 
-body {
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+html, body {
+    height: 100%;
     margin: 0;
     padding: 0;
-    color: #333;
+    background-color: #d6bc9a !important;
 }
 
 .Cabeçalho 
 {
-    background-color: #f4f4f4;
+    background-color: #d8be9b;;
 }
+
+
+.display-3 
+{
+    font-family:'Anton SC', sans-serif !important;
+    font-size: 2.5rem;
+
+}
+
+.area-logo {
+    text-align: center;
+    padding: 20px;
+    margin-top: 0 ;
+    background-color: #8C3D2B;   
+
+}  
 
 header {
     text-align: center;
     padding: 20px;
 }
 
+
 .logo img {
     width: 150px;
     height: auto;
-    background-color: #8C3D2B;
+
 }
 
 h1 {
@@ -49,9 +67,12 @@ a:hover {
 
 main {
     max-width: 800px;
-    margin: auto;
+    margin: 40px auto;
     padding: 20px;
-    background-color: #f8f8f8 ;
+}
+
+.conteudo{
+    background-color: #fff;
 }
 
 .imagem-destaque {
