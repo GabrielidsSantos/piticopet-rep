@@ -28,6 +28,19 @@ html, body {
 
 }  
 
+.flex-container {
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+    margin: 20px 0;
+  }
+
+.introducao {
+  flex: 1;
+  text-align: justify;
+}
+
+
 header {
     text-align: center;
     padding: 20px;
@@ -41,32 +54,32 @@ header {
 }
 
 h1 {
-    color: #8C3D2B;
+    color: #8C3D2B !important;
     font-family: Verdana, Tahoma, sans-serif;
 }
 
 h2 {
-    color: #8C3D2B;
+    color: #8C3D2B !important;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 20px;
 }
 
 p {
-    margin: 0 20px 20px;
+    margin: 30 px;
     line-height: 1.6;
 }
 
 a {
-    color: #8C3D2B;
+    color: #8C3D2B !important;
     text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: underline !important;
 }
 
 main {
-    max-width: 800px;
+    max-width: 1300px;
     margin: 40px auto;
     padding: 20px;
 }
@@ -77,21 +90,24 @@ main {
 
 .imagem-destaque {
     text-align: center;
-    margin: 20px 0;
+    flex: 1;
 }
 
 figure {
     margin: 0;
 }
 
-img {
-    width: 100%; 
+.img-thumbnail {
+    max-width: 100%; 
     height: auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
 }
 
 figcaption {
     font-style: italic;
-    margin-top: 5px;
+    margin-top: 10px;
+    color: #555;
 }
 
 ul {
