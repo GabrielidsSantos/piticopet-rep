@@ -14,7 +14,7 @@ h1 {
 }
 
 p {
-    font-size: 1.2rem;
+    font-size: 1.2rem;
 }
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -148,46 +148,17 @@ header img.logo {
 
 /* Botão do menu responsivo */
 #menu-toggle {
-     display: none; /* Menu invisível inicialmente */
-  flex-direction: column; /* Organizar itens verticalmente */
-  background-color: #fff; /* Fundo branco (ou ajuste conforme necessário) */
-  color: #000; /* Texto preto (ou ajuste conforme necessário) */
-  position: absolute; /* Para garantir que o menu não afete outros elementos */
-  top: 50px; /* Ajuste a posição conforme necessário */
-  right: 10px; /* Ajuste conforme necessário */
-  z-index: 10; /* Certifique-se de que o menu fique acima de outros elementos */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombras para destaque */
-  padding: 10px;
-  border-radius: 5px;
-    /*display: none;
+    display: none;
     font-size: 24px;
     background: none;
     border: none;
     cursor: pointer;
-} */
-
-#menu { 
-        display: flex;
-        flex-direction: row;
-    
 }
 
-/* Itens do menu */
-#menu ul {
-    list-style-type: none; /* Remove marcadores da lista */
-    padding: 0;
-    margin: 0;
-  }
-  
-  #menu li {
-    margin: 5px 0; /* Espaçamento entre itens */
-  }
-  
-  #menu a {
-    text-decoration: none; /* Remove sublinhado dos links */
-    color: inherit; /* Herda a cor do texto */
-    font-weight: bold;
-  }
+#menu {
+    display: flex;
+    flex-direction: row;
+}
 
 /* Barra de pesquisa */
 #pesquisa-produtos {
@@ -238,4 +209,3 @@ header img.logo {
         width: 90%;
     }
 }
-
