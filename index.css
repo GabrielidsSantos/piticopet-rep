@@ -148,15 +148,7 @@ header img.logo {
 
 /* Botão do menu responsivo */
 #menu-toggle {
-    display: none;
-    font-size: 24px;
-    background: none;
-    border: none;
-    cursor: pointer;
-}
-
-#menu {
-    display: none; /* Menu invisível inicialmente */
+     display: none; /* Menu invisível inicialmente */
   flex-direction: column; /* Organizar itens verticalmente */
   background-color: #fff; /* Fundo branco (ou ajuste conforme necessário) */
   color: #000; /* Texto preto (ou ajuste conforme necessário) */
@@ -167,6 +159,17 @@ header img.logo {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombras para destaque */
   padding: 10px;
   border-radius: 5px;
+    /*display: none;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+} */
+
+#menu { 
+        display: flex;
+        flex-direction: row;
+    
 }
 
 /* Itens do menu */
