@@ -20,6 +20,7 @@ html, body {
 
 }
 
+
 .area-logo {
     text-align: center;
     padding: 20px;
@@ -60,23 +61,28 @@ h1 {
 
 h2 {
     color: #8C3D2B !important;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-top: 20px;
+     text-decoration: none !important;
+    margin-block:20px !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 p {
     margin: 30 px;
     line-height: 1.6;
+    font-size: 1.25rem; /* Tamanho da fonte igual à classe .lead */
+    font-weight: 300;  /* Peso da fonte igual à classe .lead */
+    line-height: 1.6;  /* Altura da linha igual à classe .lead */
 }
 
 a {
     color: #8C3D2B !important;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 a:hover {
     text-decoration: underline !important;
 }
+
 
 main {
     max-width: 1300px;
@@ -105,7 +111,7 @@ figure {
 .img-thumbnail {
     max-width: 100%; 
     height: auto;
-    border: 1px solid #ccc;
+    border: 3px solid #8C3D2B;
     border-radius: 8px;
 }
 
@@ -122,6 +128,14 @@ ul {
 
 ul li {
     margin-bottom: 10px;
+}
+
+li {
+    margin: 30 px;
+    line-height: 1.6;
+    font-size: 1.25rem; /* Tamanho da fonte igual à classe .lead */
+    font-weight: 300;  /* Peso da fonte igual à classe .lead */
+    line-height: 1.6;  /* Altura da linha igual à classe .lead */
 }
 
 .links {
