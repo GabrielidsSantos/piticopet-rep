@@ -1,4 +1,4 @@
-# Pitico Pet - E-commerce para Pet Shop
+# 🐶 Pitico Pet - E-commerce para Pet Shop
 
 ## 📌 O que foi feito
 - Listagem de produtos
@@ -7,7 +7,7 @@
 - Página de contato
 - Interface visual organizada
 
-## Tecnologias
+## 🎯 Tecnologias
 - HTML
 - CSS
 - Javascript
@@ -19,8 +19,8 @@ durante o desenvolvimetno do website pratiquei:
 - manipulação básica com Javascript
 - organização de interface para usuário
 
-## Trabalho em equipe
+## 🫂 Trabalho em equipe
   Projeto desenvolvido em grupo para prática de desenvolvimento web e organização de código em conjunto.
 
-## Insituição
+## 🏫 Insituição
   Projeto proposto e monitorado pelo IFSP - Campus Cubatão
